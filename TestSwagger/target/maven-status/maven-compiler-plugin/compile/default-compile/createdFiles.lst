@@ -1,0 +1,17 @@
+com\TestSwagger\data\UserData.class
+com\TestSwagger\Model\User.class
+com\TestSwagger\controller\AbstractResource.class
+com\TestSwagger\Model\Category.class
+com\TestSwagger\data\StoreData.class
+com\TestSwagger\data\PetData.class
+com\TestSwagger\Exception\BadRequestException.class
+com\TestSwagger\App.class
+com\TestSwagger\Exception\NotFoundException.class
+com\TestSwagger\Model\Tag.class
+com\TestSwagger\SwaggerConfig.class
+com\TestSwagger\controller\PetResources.class
+com\TestSwagger\controller\HelloController.class
+com\TestSwagger\Model\Order.class
+com\TestSwagger\Model\Pet.class
+com\TestSwagger\Exception\ApiException.class
+com\TestSwagger\Model\ApiResponse.class

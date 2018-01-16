@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+	    jcenter()
+   }
+    dependencies {
+        classpath 'net.slkdev.swagger.confluence:swagger-confluence-gradle-plugin:2.3-RELEASE'
+    }
+}
+
+apply plugin: 'net.slkdev.swagger-confluence'
+
+swaggerConfluence {
+    ancestorId 1234
+    authentication admin:admin101
+    confluenceRestApiUrl 'http://localhost:8090/display/CON/Rest'
+    generateNumericPrefixes true
+    includeTableOfContentsOnSinglePage true
+    paginationMode 'single'
+    prefix '[PRE]'
+    spaceKey 'TEST'
+    swaggerSchema '/swagger-test-api-docs.json'
+    title 'My Swagger API'
+}
